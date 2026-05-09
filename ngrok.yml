@@ -1,6 +1,0 @@
-authtoken: ngrok config add-authtoken 3DGP8HXPQ4mn8AoEXS7dY7DdNdd_7aESPh8D8w1aM2VBFkYPP
-tunnels:
-  brightwaveagency:
-    addr: 5500
-    proto: http
-    bind_tls: true
