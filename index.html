@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrightCare Health Plans | Health Insurance Guidance</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="BrightCare Health Plans home">BrightCare Health Plans</a>
+      <ul class="nav-links">
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="button button-primary" href="#contact">Get a Quote</a>
+    </nav>
+
+    <div id="top" class="hero-content container">
+      <div>
+        <p class="eyebrow">Health insurance guidance</p>
+        <h1>Coverage that helps you feel prepared for care.</h1>
+        <p class="hero-copy">BrightCare helps individuals, families, and small businesses compare health insurance options, understand benefits, and choose coverage with confidence.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Request Plan Help</a>
+          <a class="button button-secondary" href="#plans">Explore Plans</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-card">
+          <p class="card-label">Plan guidance</p>
+          <h2>Clear answers before you enroll</h2>
+          <p>Compare premiums, deductibles, provider access, prescriptions, and family needs with a licensed insurance guide.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="plans" class="section container">
+      <div class="section-intro">
+        <p class="eyebrow">Coverage options</p>
+        <h2>Health insurance plans for every stage of life.</h2>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Individual & Family Plans</h3>
+          <p>Find coverage for doctor visits, prescriptions, preventive care, urgent care, and ongoing health needs.</p>
+        </article>
+        <article class="card">
+          <h3>Small Business Coverage</h3>
+          <p>Offer employees dependable health benefits with plan options designed for growing teams.</p>
+        </article>
+        <article class="card">
+          <h3>Medicare Guidance</h3>
+          <p>Review Medicare Advantage, Supplement, and prescription drug plan choices with plain-language support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="support" class="section section-alt container">
+      <div class="section-intro">
+        <p class="eyebrow">How we help</p>
+        <h2>Simple support from quote to enrollment.</h2>
+      </div>
+      <div class="work-grid">
+        <article class="work-card">
+          <h3>Plan Comparison</h3>
+          <p>See side-by-side options for monthly premium, deductible, copays, networks, and prescription coverage.</p>
+        </article>
+        <article class="work-card">
+          <h3>Provider Checks</h3>
+          <p>Confirm whether your preferred doctors, clinics, hospitals, and medications are included before you choose.</p>
+        </article>
+        <article class="work-card">
+          <h3>Enrollment Support</h3>
+          <p>Get help completing forms, understanding deadlines, and preparing the documents your application needs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">About us</p>
+          <h2>We make health insurance easier to understand.</h2>
+          <p>BrightCare Health Plans works with people who want a clearer path through coverage decisions. Our team focuses on practical guidance, careful plan review, and responsive service after enrollment.</p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <strong>10+</strong>
+            <span>Years helping clients compare coverage</span>
+          </div>
+          <div class="stat">
+            <strong>24/7</strong>
+            <span>Access to telehealth options on many plans</span>
+          </div>
+          <div class="stat">
+            <strong>0</strong>
+            <span>Cost for a plan consultation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt container contact-section">
+      <div class="contact-panel">
+        <p class="eyebrow">Contact</p>
+        <h2>Ready to review your health plan options?</h2>
+        <p>Tell us what kind of coverage you need and we will follow up with plan guidance.</p>
+        <a class="button button-primary" href="mailto:dot.edwardtuttle@gmail.com">Email Us</a>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Coverage needs
+          <textarea name="message" placeholder="Tell us about who needs coverage, your timeline, and any doctors or prescriptions to check" rows="5" required></textarea>
+        </label>
+        <button class="button button-secondary" type="submit">Send Message</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>&copy; 2026 BrightCare Health Plans</p>
+    <p class="footer-url">Health insurance guidance for individuals, families, and small businesses</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "brightcare-health-plans",
+  "version": "1.0.0",
+  "description": "Health insurance website with contact email backend",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "static": "live-server --port=5500 --host=0.0.0.0 --open=./index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

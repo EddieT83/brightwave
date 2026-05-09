@@ -1,0 +1,7 @@
+authtoken: YOUR_NGROK_AUTHTOKEN
+tunnels:
+  brightcarehealthplans:
+    addr: 5500
+    proto: http
+    domain: your-domain.example
+    bind_tls: true
